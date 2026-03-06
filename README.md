@@ -1,81 +1,114 @@
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Ayon%20Aryan&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=AI%20Systems%20Engineer%20%7C%20LLM%20%7C%20RAG%20%7C%20Backend%20Architect&descSize=18&descAlignY=52" width="100%"/>
+
 <div align="center">
 
-<!-- Animated Typing Header -->
+<!-- Profile Picture -->
+<img src="https://github.com/AYON-ARYAN.png" width="150" height="150" style="border-radius: 50%;" alt="Ayon Aryan" />
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&duration=3000&pause=1000&color=6C63FF&center=true&vCenter=true&multiline=true&width=700&height=100&lines=%F0%9F%91%8B+Hey%2C+I'm+Ayon+Aryan;AI+Systems+Engineer+%7C+LLM+%7C+RAG+%7C+Backend)](https://git.io/typing-svg)
+<br/><br/>
 
-<img src="https://komarev.com/ghpvc/?username=AYON-ARYAN&label=Profile%20Views&color=6C63FF&style=for-the-badge" alt="Profile views" />
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=6C63FF&center=true&vCenter=true&width=500&lines=Building+Production+AI+Systems+%F0%9F%94%A5;LLM+%7C+RAG+%7C+Computer+Vision+%7C+Backend;Android+%7C+Microservices+%7C+FinTech;3rd+Year+CSE+%40+RV+University)](https://git.io/typing-svg)
 
 <br/>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ayon-aryan-917078238/)
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://ayon-aryan.github.io/ayonaryan.github.io/)
-[![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ayonaryan5@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AYON-ARYAN)
+[![LinkedIn](https://img.shields.io/badge/-Ayon%20Aryan-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ayon-aryan-917078238/)
+[![Portfolio](https://img.shields.io/badge/-Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white)](https://ayon-aryan.github.io/ayonaryan.github.io/)
+[![Gmail](https://img.shields.io/badge/-ayonaryan5@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ayonaryan5@gmail.com)
+[![GitHub](https://img.shields.io/badge/-AYON--ARYAN-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AYON-ARYAN)
+[![Profile Views](https://komarev.com/ghpvc/?username=AYON-ARYAN&label=Profile%20Views&color=6C63FF&style=for-the-badge)](https://github.com/AYON-ARYAN)
 
 </div>
 
 ---
 
-## 🧠 About Me
+<img align="right" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcG9nMXZmNnN0c29oMzJ4YjVpMTJsb3M5MzhlYW9rejlzcDJ4dGFsZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qgQUggAC3Pfv687qPC/giphy.gif" width="300"/>
+
+## �‍💻 About Me
 
 ```yaml
 Name: Ayon Aryan
-Location: Bangalore, India (from Patna, Bihar)
-Education: B.Tech (Hons) CSE @ RV University (Expected 2027)
-Major: Artificial Intelligence & Machine Learning
+Location: Bangalore, India 📍 (from Patna, Bihar)
+Education: B.Tech (Hons) CSE @ RV University
+Majors: AI & Machine Learning
 Minor: FinTech
-Focus: Building production-ready AI systems & scalable backends
-Currently: Android Intern @ Techpuram | AI Intern @ Broadrange AI (Chicago)
+Graduation: 2027
 ```
 
-> I architect **LLM-powered platforms**, **RAG pipelines**, **GAN-based models**, and **Android applications**.  
-> My goal is to ship AI systems that work in production — not just notebooks.
+- 🔭 Currently working as **AI Intern @ Broadrange AI** (Chicago) & **Android Developer @ Techpuram**
+- 🧠 I specialize in **LLM pipelines, RAG systems, and backend architecture**
+- 🚀 I build AI systems for **production** — not just notebooks
+- 📱 Published an Android app with **100+ downloads** on Play Store
+- 🏆 **Best Project Award** — Structural Innovation, RV University
+- 📫 Reach me at **ayonaryan5@gmail.com**
+
+<br clear="right"/>
 
 ---
 
-## ⚡ Tech Stack
+## ⚡ Tech Arsenal
 
 <div align="center">
 
-### 🔤 Languages
+<table>
+<tr>
+<td align="center" width="25%">
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
-![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
+**🔤 Languages**
 
-### 🤖 AI / ML
+<br/>
 
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![Keras](https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
-![FAISS](https://img.shields.io/badge/FAISS-0467DF?style=for-the-badge&logo=meta&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white)
+![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
 
-### 🏗️ Backend & Frameworks
+</td>
+<td align="center" width="25%">
 
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
-![Jetpack Compose](https://img.shields.io/badge/Jetpack_Compose-4285F4?style=for-the-badge&logo=jetpackcompose&logoColor=white)
-![REST API](https://img.shields.io/badge/REST_API-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+**🤖 AI / ML**
 
-### 🗄️ Databases
+<br/>
 
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![Keras](https://img.shields.io/badge/Keras-D00000?style=flat-square&logo=keras&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/sklearn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
+![FAISS](https://img.shields.io/badge/FAISS-0467DF?style=flat-square&logo=meta&logoColor=white)
 
-### 🛠️ Tools & Platforms
+</td>
+<td align="center" width="25%">
 
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Android Studio](https://img.shields.io/badge/Android_Studio-3DDC84?style=for-the-badge&logo=androidstudio&logoColor=white)
-![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white)
+**🏗️ Backend**
+
+<br/>
+
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
+![REST API](https://img.shields.io/badge/REST_API-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Jetpack Compose](https://img.shields.io/badge/Jetpack-4285F4?style=flat-square&logo=jetpackcompose&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+
+</td>
+<td align="center" width="25%">
+
+**🛠️ Tools**
+
+<br/>
+
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+![Android Studio](https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=androidstudio&logoColor=white)
+![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
+
+</td>
+</tr>
+</table>
 
 </div>
 
@@ -85,154 +118,156 @@ Currently: Android Intern @ Techpuram | AI Intern @ Broadrange AI (Chicago)
 
 <div align="center">
 
-<table>
-<tr>
-<td width="50%">
+<a href="https://github.com/AYON-ARYAN/LLM-Service-MCP-">
+<img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/pin/?username=AYON-ARYAN&repo=LLM-Service-MCP-&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6C63FF&icon_color=6C63FF" width="49%" />
+</a>
+<a href="https://github.com/AYON-ARYAN/graph-rag">
+<img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/pin/?username=AYON-ARYAN&repo=graph-rag&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6C63FF&icon_color=6C63FF" width="49%" />
+</a>
 
-### 🤖 [LLM Service MCP](https://github.com/AYON-ARYAN/LLM-Service-MCP-)
-
-**Autonomous AI Agent System**
-
-Microservice-based autonomous AI system with dynamic tool orchestration — integrating RAG, Web Search, and Chat services.
-
-`BERT` `RAG` `LLM` `Microservices` `Intent Classification`
-
-- 🔧 Dynamic tool orchestration engine
-- 🧠 BERT-based intent classification for prompt routing
-- 📡 Real-time reasoning pipeline
-
-</td>
-<td width="50%">
-
-### 🧬 [Graph RAG](https://github.com/AYON-ARYAN/graph-rag)
-
-**Knowledge Graph + Vector Search + LLM**
-
-Graph RAG system combining NetworkX knowledge graphs with FAISS vector search and Groq LLM for enhanced retrieval.
-
-`NetworkX` `FAISS` `Groq` `D3.js` `Flask`
-
-- 📊 Interactive D3.js graph visualization
-- 🔍 Hybrid retrieval: graph traversal + vector similarity
-- 📄 Document upload & intelligent chunking
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-### 🖼️ [Image Resolution Enhancer](https://github.com/AYON-ARYAN/Image-Resolutiom-Enhancer)
-
-**Face Super Resolution with Real-ESRGAN**
-
-Fine-tuned Real-ESRGAN using transfer learning and custom loss balancing for facial detail reconstruction.
-
-`Real-ESRGAN` `PyTorch` `Transfer Learning` `GANs`
-
-- 📈 PSNR: 29.15 → **33.95 dB**
-- 🎯 SSIM: **0.8985**
-- 🧪 Custom loss balancing on paired HR-LR dataset
-
-</td>
-<td width="50%">
-
-### 🗃️ [NL-to-SQL Database Manager](https://github.com/AYON-ARYAN/DATABASE-MANAGER)
-
-**Offline AI-Powered Database Manager**
-
-Converts natural language into executable SQL queries using locally hosted LLM (Ollama + Mistral).
-
-`Ollama` `Mistral` `SQLite` `NL-to-SQL`
-
-- 💬 Natural language → SQL query translation
-- 🛡️ Schema-aware prompting & SQL validation
-- ⏪ Snapshot-based rollback & human-in-the-loop
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-### ⚖️ [Legal AI LLM](https://github.com/AYON-ARYAN/LEGAL-AI-LLM)
-
-**Legal Domain LLM System**
-
-Built at Broadrange AI (Chicago). Legal domain LLM trained on curated datasets with RAG architecture for contextual grounding.
-
-`LLM` `RAG` `PromptGuard V2` `Document Ingestion`
-
-- 📋 Curated dataset to minimize hallucination
-- 🔐 PromptGuard V2 for prompt injection defense
-- 📄 Chunking-based document ingestion pipeline
-
-</td>
-<td width="50%">
-
-### 🧠 [Brain Tumor Segmentation](https://github.com/AYON-ARYAN/Brain-Tumor-Segmentation)
-
-**Deep Learning Medical Imaging**
-
-U-Net architecture for semantic segmentation of brain tumors from MRI scans, developed for Kaggle competition.
-
-`U-Net` `TensorFlow` `Medical Imaging` `Kaggle`
-
-- 🏥 Semantic segmentation on MRI data
-- 🏗️ U-Net encoder-decoder architecture
-- 📊 Kaggle competition submission
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-### 📍 [Geo GPS Camera App](https://github.com/AYON-ARYAN/GEO_LOCATION_SAVER_APP)
-
-**Location-Tagged Image Capture**
-
-Production Android app with 100+ downloads on Play Store. Secure location-tagged image capture using Jetpack Compose.
-
-`Kotlin` `Jetpack Compose` `Google Maps API` `CameraX`
-
-- 📱 100+ downloads on Play Store
-- 🛡️ Server-side validation against image spoofing
-- 🗺️ Real-time address overlay on captured photos
-
-</td>
-<td width="50%">
-
-### 🎙️ [Personal Assistant](https://github.com/AYON-ARYAN/PERSONAL_ASSISTANT)
-
-**Offline Siri-like Voice Assistant**
-
-Fully offline voice assistant for macOS with local speech recognition, local LLM, and floating UI.
-
-`Speech Recognition` `Local LLM` `macOS` `Python`
-
-- 🔇 Fully offline — no cloud dependency
-- 💬 Multi-turn conversation support
-- 🖥️ Lightweight floating UI
-
-</td>
-</tr>
-</table>
+<a href="https://github.com/AYON-ARYAN/DATABASE-MANAGER">
+<img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/pin/?username=AYON-ARYAN&repo=DATABASE-MANAGER&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6C63FF&icon_color=6C63FF" width="49%" />
+</a>
+<a href="https://github.com/AYON-ARYAN/Image-Resolutiom-Enhancer">
+<img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/pin/?username=AYON-ARYAN&repo=Image-Resolutiom-Enhancer&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6C63FF&icon_color=6C63FF" width="49%" />
+</a>
 
 </div>
 
+### 🔬 Project Deep Dives
+
 <details>
-<summary><b>📂 More Projects</b></summary>
+<summary><b>🤖 LLM Service MCP — Autonomous AI Agent System</b></summary>
+<br/>
+
+> Microservice-based autonomous AI system with dynamic tool orchestration
+
+| Feature                  | Description                                         |
+| ------------------------ | --------------------------------------------------- |
+| 🔧 Tool Orchestration    | Dynamic switching between RAG, Web Search, and Chat |
+| 🧠 Intent Classification | BERT-based real-time prompt routing                 |
+| 📡 Reasoning Pipeline    | Multi-step reasoning with context chaining          |
+
+**Tech:** `BERT` `RAG` `LLM` `Spring Boot` `Microservices`
+
+</details>
+
+<details>
+<summary><b>🧬 Graph RAG — Knowledge Graph + Vector Search + LLM</b></summary>
+<br/>
+
+> Hybrid retrieval combining knowledge graphs with vector similarity search
+
+| Feature                | Description                               |
+| ---------------------- | ----------------------------------------- |
+| 📊 Graph Visualization | Interactive D3.js knowledge graph         |
+| 🔍 Hybrid Retrieval    | Graph traversal + FAISS vector similarity |
+| 📄 Document Processing | Upload, chunk, and index documents        |
+
+**Tech:** `NetworkX` `FAISS` `Groq` `D3.js` `Flask`
+
+</details>
+
+<details>
+<summary><b>🖼️ Face Super Resolution — Real-ESRGAN Enhancement</b></summary>
+<br/>
+
+> Fine-tuned GAN model for facial detail reconstruction
+
+| Metric   | Before   | After           |
+| -------- | -------- | --------------- |
+| **PSNR** | 29.15 dB | **33.95 dB** ⬆️ |
+| **SSIM** | —        | **0.8985**      |
+
+**Tech:** `Real-ESRGAN` `PyTorch` `Transfer Learning` `GANs`
+
+</details>
+
+<details>
+<summary><b>🗃️ NL-to-SQL — Offline AI Database Manager</b></summary>
+<br/>
+
+> Natural language → executable SQL using local LLM
+
+| Feature           | Description                                 |
+| ----------------- | ------------------------------------------- |
+| 💬 NL Translation | Natural language to SQL conversion          |
+| 🛡️ Validation     | Schema-aware prompting + SQL validation     |
+| ⏪ Safety         | Snapshot-based rollback + human-in-the-loop |
+
+**Tech:** `Ollama` `Mistral` `SQLite`
+
+</details>
+
+<details>
+<summary><b>⚖️ Legal AI LLM — Built at Broadrange AI, Chicago</b></summary>
+<br/>
+
+> Production legal domain LLM with RAG and prompt injection defense
+
+| Feature      | Description                                    |
+| ------------ | ---------------------------------------------- |
+| 📋 Dataset   | Curated legal corpus to minimize hallucination |
+| 🔐 Security  | PromptGuard V2 for prompt injection defense    |
+| 📄 Ingestion | Chunking-based document processing pipeline    |
+
+**Tech:** `LLM` `RAG` `PromptGuard V2`
+
+</details>
+
+<details>
+<summary><b>🧠 Brain Tumor Segmentation — Deep Learning Medical Imaging</b></summary>
+<br/>
+
+> U-Net for semantic segmentation of brain tumors from MRI
+
+**Tech:** `U-Net` `TensorFlow` `Medical Imaging` · Built for Kaggle Competition
+
+</details>
+
+<details>
+<summary><b>📍 Geo GPS Camera — 100+ Play Store Downloads</b></summary>
+<br/>
+
+> Production Android app with location-tagged photo capture
+
+| Feature       | Description                                   |
+| ------------- | --------------------------------------------- |
+| 📱 Play Store | 100+ downloads, production app                |
+| 🛡️ Security   | Server-side validation against GPS spoofing   |
+| 🗺️ Maps       | Real-time address overlay via Google Maps API |
+
+**Tech:** `Kotlin` `Jetpack Compose` `CameraX` `Google Maps API`
+
+</details>
+
+<details>
+<summary><b>🎙️ Personal Assistant — Offline Voice AI for macOS</b></summary>
+<br/>
+
+> Fully offline Siri-like assistant with local LLM
+
+**Tech:** `Speech Recognition` `Local LLM` `Python` · No cloud dependency, multi-turn conversations
+
+</details>
+
+<br/>
+
+<details>
+<summary><b>📂 See All Other Projects</b></summary>
 <br/>
 
 | Project                                                                                          | Description                       | Tech                      |
 | ------------------------------------------------------------------------------------------------ | --------------------------------- | ------------------------- |
 | [INTELLI-CHAT-AI](https://github.com/AYON-ARYAN/INTELLI-CHAT-AI)                                 | Smart Document & Web Assistant    | RAG, LLM                  |
 | [TRAVEL-PLANNER-MCP](https://github.com/AYON-ARYAN/TRAVEL-PLANNER-MCP)                           | AI Travel Planning System         | MCP, LLM                  |
-| [Currency-Exchange](https://github.com/AYON-ARYAN/Currency-Exchange)                             | Currency Exchange Application     | API Integration           |
-| [Fake-News-Check](https://github.com/AYON-ARYAN/Fake-News-Check)                                 | Fake News Detection System        | ML, NLP                   |
+| [Currency-Exchange](https://github.com/AYON-ARYAN/Currency-Exchange)                             | Currency Exchange App             | Python, APIs              |
+| [Fake-News-Check](https://github.com/AYON-ARYAN/Fake-News-Check)                                 | Fake News Detection               | ML, NLP                   |
 | [Movie_Reccomendation_System](https://github.com/AYON-ARYAN/Movie_Reccomendation_System)         | Moodix — ML Movie Recommendations | TF-IDF, Cosine Similarity |
-| [Bank_Statement_Organizer](https://github.com/AYON-ARYAN/Bank_Statement_Organizer)               | Bank Statement Analysis Tool      | Python, FinTech           |
-| [Blackchain-Voting-System](https://github.com/AYON-ARYAN/Blackchain-Voting-System)               | Blockchain-Based Voting System    | Solidity                  |
-| [WEATHER_SONG_RECOMMENDATION](https://github.com/AYON-ARYAN/WEATHER_SONG_RECOMMENDATION)         | Weather-Based Song Recommender    | API, ML                   |
-| [Print-Quality-Dataset-Generator](https://github.com/AYON-ARYAN/Print-Quality-Dataset-Generator) | Print Quality Dataset Generator   | Computer Vision           |
+| [Bank_Statement_Organizer](https://github.com/AYON-ARYAN/Bank_Statement_Organizer)               | Bank Statement Analysis           | Python, FinTech           |
+| [Blackchain-Voting-System](https://github.com/AYON-ARYAN/Blackchain-Voting-System)               | Blockchain Voting                 | Solidity                  |
+| [WEATHER_SONG_RECOMMENDATION](https://github.com/AYON-ARYAN/WEATHER_SONG_RECOMMENDATION)         | Weather Song Recommender          | API, ML                   |
+| [Print-Quality-Dataset-Generator](https://github.com/AYON-ARYAN/Print-Quality-Dataset-Generator) | Print Quality Dataset             | Computer Vision           |
 
 </details>
 
@@ -243,21 +278,32 @@ Fully offline voice assistant for macOS with local speech recognition, local LLM
 <table>
 <tr>
 <td>
+<br/>
 
-**🤖 AI Intern** — [Broadrange AI](https://broadrangeai.com), Chicago, Illinois  
-`Jun 2025 — Aug 2025`
-
-Built a Legal Domain LLM system with RAG architecture, document ingestion pipeline, and PromptGuard V2 integration for prompt injection defense.
+> ### 🤖 Artificial Intelligence Intern
+>
+> **Broadrange AI** · Chicago, Illinois 🇺🇸  
+> `Jun 2025 — Aug 2025`
+>
+> Built a **Legal Domain LLM** system with RAG architecture, document  
+> ingestion pipeline with chunking, and **PromptGuard V2** integration  
+> for prompt injection defense. Minimized hallucination through curated  
+> legal datasets.
 
 </td>
 </tr>
 <tr>
 <td>
+<br/>
 
-**📱 Android Native App Developer Intern** — Techpuram Technology Pvt. Ltd., Madurai  
-`Feb 2025 — Aug 2025`
-
-Developed Geo GPS Camera App (100+ Play Store downloads) with Jetpack Compose, Kotlin, Google Maps API, and server-side validation against GPS spoofing.
+> ### 📱 Android Native App Developer Intern
+>
+> **Techpuram Technology Pvt. Ltd.** · Madurai, Tamil Nadu 🇮🇳  
+> `Feb 2025 — Aug 2025`
+>
+> Developed **Geo GPS Camera App** (100+ Play Store downloads) using  
+> Jetpack Compose, Kotlin, and Google Maps API. Implemented server-side  
+> validation to prevent image spoofing and fake GPS metadata.
 
 </td>
 </tr>
@@ -265,7 +311,7 @@ Developed Geo GPS Camera App (100+ Play Store downloads) with Jetpack Compose, K
 
 ---
 
-## 📊 GitHub Stats
+## 📊 GitHub Analytics
 
 <div align="center">
 
@@ -281,11 +327,11 @@ Developed Geo GPS Camera App (100+ Play Store downloads) with Jetpack Compose, K
 
 ---
 
-## 🏆 GitHub Trophies
+## 🏆 Achievements
 
 <div align="center">
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=AYON-ARYAN&theme=discord&no-frame=true&no-bg=true&column=7)](https://github.com/ryo-ma/github-profile-trophy)
+[![trophy](https://github-profile-trophy.vercel.app/?username=AYON-ARYAN&theme=discord&no-frame=true&no-bg=true&column=7&margin-w=10)](https://github.com/ryo-ma/github-profile-trophy)
 
 </div>
 
@@ -293,17 +339,28 @@ Developed Geo GPS Camera App (100+ Play Store downloads) with Jetpack Compose, K
 
 ## 📈 Contribution Graph
 
-[![Ayon's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=AYON-ARYAN&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=6C63FF&line=6C63FF&point=FFFFFF)](https://github.com/ashutosh00710/github-readme-activity-graph)
+[![Ayon's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=AYON-ARYAN&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=6C63FF&line=6C63FF&point=FFFFFF&area=true&area_color=6C63FF)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
 ---
 
-## 🎓 Education & Achievements
+## 🎓 Education
 
-- 🏫 **B.Tech (Hons) Computer Science** — RV University, Bangalore (Expected 2027)
-- 🏅 **Best Project Award** — Structural Innovation, RV University
-- 📜 **NPTEL** — Programming in Modern C++ (2024-2025)
-- 🏃 **District Level 300m Sprint** — Gyansthali High School, Patna
-- ⛸️ **National Level** — Roller Skating & Karate — DPS Patna
+<table>
+<tr>
+<td>
+
+|     | Details                                                                   |
+| --- | ------------------------------------------------------------------------- |
+| 🏫  | **B.Tech (Hons) Computer Science** — RV University, Bangalore (2023–2027) |
+| 🎯  | **Major:** AI & Machine Learning · **Minor:** FinTech                     |
+| 🏅  | **Best Project Award** — Structural Innovation                            |
+| 📜  | **NPTEL** — Programming in Modern C++ (2024–2025)                         |
+| 🏃  | **District Level 300m Sprint** — Gyansthali High School, Patna            |
+| ⛸️  | **National Level** Roller Skating & Karate — DPS Patna                    |
+
+</td>
+</tr>
+</table>
 
 ---
 
@@ -319,10 +376,18 @@ Developed Geo GPS Camera App (100+ Play Store downloads) with Jetpack Compose, K
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=6C63FF&height=100&section=footer" width="100%"/>
+### 💬 Random Dev Quote
+
+[![Readme Quotes](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)](https://github.com/piyushsuthar/github-readme-quotes)
+
+</div>
+
+---
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer" width="100%"/>
 
 **"I don't just train models — I ship AI systems."**
-
-⭐ **If you find my work interesting, consider giving a star!** ⭐
 
 </div>
