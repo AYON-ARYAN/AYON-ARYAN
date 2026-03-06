@@ -269,10 +269,13 @@ Developed Geo GPS Camera App (100+ Play Store downloads) with Jetpack Compose, K
 
 <div align="center">
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=AYON-ARYAN&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6C63FF&icon_color=6C63FF&text_color=FFFFFF&count_private=true" />
-<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=AYON-ARYAN&theme=tokyonight&hide_border=true&background=0D1117&ring=6C63FF&fire=6C63FF&currStreakLabel=6C63FF" />
+<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=AYON-ARYAN&theme=tokyonight" />
+<img width="49%" src="https://streak-stats.demolab.com/?user=AYON-ARYAN&theme=tokyonight&hide_border=true&background=0D1117&ring=6C63FF&fire=6C63FF&currStreakLabel=6C63FF" />
 
-<img width="40%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AYON-ARYAN&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6C63FF&text_color=FFFFFF&langs_count=8" />
+<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=AYON-ARYAN&theme=tokyonight" />
+<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=AYON-ARYAN&theme=tokyonight" />
+
+<img width="70%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=AYON-ARYAN&theme=tokyonight" />
 
 </div>
 
