@@ -295,13 +295,12 @@ Major: AI and Machine Learning · Minor: FinTech · CGPA **7.8 / 10**
 
 <div align="center">
 
-<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=AYON-ARYAN&theme=github_dark" />
-<img width="49%" src="https://streak-stats.demolab.com/?user=AYON-ARYAN&theme=highcontrast&hide_border=true" />
+<img width="49%" src="https://github-readme-stats-sigma-five.vercel.app/api?username=AYON-ARYAN&show_icons=true&count_private=true&include_all_commits=true&theme=github_dark&hide_border=true&icon_color=6C63FF&title_color=FFFFFF&bg_color=0D1117" />
+<img width="49%" src="https://streak-stats.demolab.com/?user=AYON-ARYAN&theme=github-dark-blue&hide_border=true&background=0D1117&ring=6C63FF&fire=6C63FF&currStreakLabel=FFFFFF" />
 
-<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=AYON-ARYAN&theme=github_dark" />
-<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=AYON-ARYAN&theme=github_dark" />
+<br/>
 
-<img width="70%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=AYON-ARYAN&theme=github_dark" />
+<img width="49%" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=AYON-ARYAN&layout=compact&langs_count=10&theme=github_dark&hide_border=true&title_color=FFFFFF&bg_color=0D1117" />
 
 </div>
 
