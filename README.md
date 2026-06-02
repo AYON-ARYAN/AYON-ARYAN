@@ -8,16 +8,26 @@
 
 # AYON ARYAN
 
-**AI Systems Engineer · Applied LLM, Hybrid RAG, On-Device ML**
+**AI Systems & Backend Engineer · Applied LLM, Hybrid RAG, On-Device ML**
 
-Bangalore, India
+CS Undergrad @ RV University (AI/ML) · Bangalore, India
 
 <br/>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ayon-aryan-917078238/)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:ayonaryan5@gmail.com)
 [![Portfolio](https://img.shields.io/badge/Portfolio-111111?style=flat-square&logo=google-chrome&logoColor=white)](https://ayon-aryan.github.io/ayonaryan.github.io/)
+[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=flat-square&logo=leetcode&logoColor=black)](https://leetcode.com/u/Ayon_Aryan/)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/AYON-ARYAN)
 ![Views](https://komarev.com/ghpvc/?username=AYON-ARYAN&color=111111&style=flat-square&label=views)
+
+<br/>
+
+[![Open to internships](https://img.shields.io/badge/🎯%20Open%20to-AI%2FML%20·%20Backend%20·%20Android%20Internships-2ea44f?style=for-the-badge)](mailto:ayonaryan5@gmail.com)
+
+<br/>
+
+`🎓 RV University · AI/ML · CGPA 7.8 · Class of 2027`  ·  `💼 2 industry internships shipped`  ·  `🧩 116 LeetCode (64 Med · 13 Hard)`  ·  `🏆 Best Project Award · IEEE CCEM 2024`
 
 </div>
 
@@ -266,9 +276,14 @@ Shipped Geo GPS Camera (100+ Play Store installs). Jetpack Compose + Kotlin + Go
 ## EDUCATION
 
 **B.Tech (Hons) Computer Science** — RV University, Bangalore `2023 — 2027`
-Major: AI and Machine Learning · Minor: FinTech
-**Best Project Award** — Structured Innovation
-**NPTEL** — Programming in Modern C++ (2024 — 2025)
+Major: AI and Machine Learning · Minor: FinTech · CGPA **7.8 / 10**
+
+**Achievements**
+- 🏆 **Best Project Award** — Structural Innovation, RV University
+- 📄 **IEEE CCEM 2024** — paper presenter (*GlucoSense*: non-invasive saliva glucose biosensor)
+- 🧩 **LeetCode** — 116 solved (39 Easy · 64 Medium · 13 Hard)
+
+**Certifications** — AWS (ML Terminology · CLI · DevOps Testing) · IBM SkillsBuild (Big Data, Hadoop, Spark, Kubernetes & OpenShift) · Google Generative AI · NPTEL Programming in Modern C++ · Udemy Spring Boot
 
 <br/>
 
@@ -320,7 +335,12 @@ Major: AI and Machine Learning · Minor: FinTech
 
 **Local-first. Hybrid retrieval. Production backends.**
 
-33 public repositories · LLM systems · MCP servers · On-device ML · Spring Boot · Android
+LLM systems · MCP servers · On-device ML · Spring Boot · Android
+
+<br/>
+
+**Open to AI/ML · Backend · Android internships — let's build something.**
+📫 [ayonaryan5@gmail.com](mailto:ayonaryan5@gmail.com) · [LinkedIn](https://www.linkedin.com/in/ayon-aryan-917078238/)
 
 <br/>
 
