@@ -45,24 +45,20 @@ jobs:
         if: ${{ env.HAS_PAT != 'true' }}
         run: echo "METRICS_TOKEN not set — keeping committed github-stats.svg (public-only counts would undercount private-repo PRs)."
 
-      # Contribution calendar + languages. base:"" disables the period-scoped
-      # base stats (e.g. the misleading "1 Pull request opened"). The metrics
-      # action commits github-metrics.svg itself (its proven default path).
-      - name: Generate contribution calendar + languages
+      # Isometric contribution calendar. base:"" disables the period-scoped
+      # base stats (e.g. the misleading "1 Pull request opened"). Languages are
+      # intentionally omitted: the plugin can't analyze them with the
+      # repo-scoped token (renders "0 Languages"), and the STACK table in the
+      # README already covers them. The metrics action commits the file itself.
+      - name: Generate contribution calendar
         uses: lowlighter/metrics@65836723097537a54cd8eb90f61839426b4266b6 # v3.34
         with:
           token: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
           user: AYON-ARYAN
           filename: github-metrics.svg
-          committer_message: "chore(metrics): refresh calendar + languages [skip ci]"
+          committer_message: "chore(metrics): refresh contribution calendar [skip ci]"
           base: ""
           config_timezone: Asia/Kolkata
           config_padding: 4%
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
-          plugin_languages: yes
-          plugin_languages_analysis_timeout: 15
-          plugin_languages_categories: markup, programming
-          plugin_languages_colors: github
-          plugin_languages_limit: 8
-          plugin_languages_indepth: yes
