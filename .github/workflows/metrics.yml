@@ -9,24 +9,32 @@ permissions:
   contents: write
 
 jobs:
-  github-metrics:
+  metrics:
     runs-on: ubuntu-latest
     steps:
-      - name: Overview metrics (stars, commits, PRs, issues + languages)
+      - name: Checkout
+        uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6.0.3
+
+      - name: Generate stats card (accurate lifetime PR / commit / star counts)
+        run: python3 .github/scripts/gen_stats_svg.py
+        env:
+          # GITHUB_TOKEN covers public data; a classic PAT (METRICS_TOKEN) also
+          # counts private contributions.
+          GH_TOKEN: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
+          GH_LOGIN: AYON-ARYAN
+
+      - name: Generate contribution calendar + languages
         uses: lowlighter/metrics@65836723097537a54cd8eb90f61839426b4266b6 # v3.34
         with:
-          # Prefer a dedicated classic PAT (METRICS_TOKEN: scopes repo, read:org, read:user).
-          # Falls back to the auto-provided GITHUB_TOKEN, which still reports public PRs/commits.
           token: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
           user: AYON-ARYAN
           filename: github-metrics.svg
-          template: classic
-          base: "header, activity, community, repositories, metadata"
+          output_action: none # write to workspace; commit handled below
+          base: "" # skip base stats (period-scoped PR counts are misleading)
           config_timezone: Asia/Kolkata
           config_padding: 4%
-          # count private contributions so PR/commit totals are accurate
-          repositories_affiliations: owner, collaborator, organization_member
-          # Most Used Languages
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
           plugin_languages: yes
           plugin_languages_analysis_timeout: 15
           plugin_languages_categories: markup, programming
@@ -34,6 +42,15 @@ jobs:
           plugin_languages_limit: 8
           plugin_languages_sort: size
           plugin_languages_indepth: yes
-          # Isometric commit calendar (replaces the broken streak card)
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: full-year
+
+      - name: Commit generated SVGs
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add github-stats.svg github-metrics.svg
+          if git diff --quiet --staged; then
+            echo "No metric changes to commit."
+          else
+            git commit -m "chore(metrics): refresh GitHub stats SVGs [skip ci]"
+            git push
+          fi

@@ -295,8 +295,10 @@ Major: AI and Machine Learning · Minor: FinTech · CGPA **7.8 / 10**
 
 <div align="center">
 
-<!-- Generated daily by .github/workflows/metrics.yml (lowlighter/metrics) — accurate, no runtime rate limits -->
-<img width="100%" src="./github-metrics.svg" alt="AYON ARYAN — GitHub metrics: stars, commits, PRs, issues, activity and most used languages" />
+<!-- Generated daily by .github/workflows/metrics.yml — accurate counts from the GitHub API, no runtime rate limits -->
+<img height="200" src="./github-stats.svg" alt="AYON ARYAN — GitHub stats: stars, commits, PRs, merged PRs, issues, contributions" />
+&nbsp;
+<img height="200" src="./github-metrics.svg" alt="AYON ARYAN — contribution calendar and most used languages" />
 
 </div>
 
