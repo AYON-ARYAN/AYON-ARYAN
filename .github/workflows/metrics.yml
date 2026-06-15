@@ -11,17 +11,26 @@ permissions:
 jobs:
   metrics:
     runs-on: ubuntu-latest
+    # HAS_PAT gates the stats card: most PRs are in private repos, so accurate
+    # counts need a classic PAT (METRICS_TOKEN). The repo-scoped GITHUB_TOKEN
+    # only sees public data and would undercount, so we never let it overwrite
+    # the committed card — we keep the accurate snapshot until a PAT is set.
+    env:
+      HAS_PAT: ${{ secrets.METRICS_TOKEN != '' }}
     steps:
       - name: Checkout
         uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6.0.3
 
       - name: Generate stats card (accurate lifetime PR / commit / star counts)
+        if: ${{ env.HAS_PAT == 'true' }}
         run: python3 .github/scripts/gen_stats_svg.py
         env:
-          # GITHUB_TOKEN covers public data; a classic PAT (METRICS_TOKEN) also
-          # counts private contributions.
-          GH_TOKEN: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.METRICS_TOKEN }}
           GH_LOGIN: AYON-ARYAN
+
+      - name: Note when stats card is skipped
+        if: ${{ env.HAS_PAT != 'true' }}
+        run: echo "METRICS_TOKEN not set — keeping committed github-stats.svg (public-only counts would undercount private-repo PRs)."
 
       - name: Generate contribution calendar + languages
         uses: lowlighter/metrics@65836723097537a54cd8eb90f61839426b4266b6 # v3.34
@@ -40,7 +49,6 @@ jobs:
           plugin_languages_categories: markup, programming
           plugin_languages_colors: github
           plugin_languages_limit: 8
-          plugin_languages_sort: size
           plugin_languages_indepth: yes
 
       - name: Commit generated SVGs

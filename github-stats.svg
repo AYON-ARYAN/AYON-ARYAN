@@ -5,15 +5,15 @@
 <text x="32" y="96" font-size="15" font-family="Segoe UI,Helvetica,Arial,sans-serif"><tspan>⭐</tspan><tspan dx="10" fill="#8b949e">Total Stars</tspan></text>
 <text x="448" y="96" text-anchor="end" font-size="15" font-weight="600" font-family="Segoe UI,Helvetica,Arial,sans-serif" fill="#ffffff">2</text>
 <text x="32" y="126" font-size="15" font-family="Segoe UI,Helvetica,Arial,sans-serif"><tspan>📦</tspan><tspan dx="10" fill="#8b949e">Total Commits</tspan></text>
-<text x="448" y="126" text-anchor="end" font-size="15" font-weight="600" font-family="Segoe UI,Helvetica,Arial,sans-serif" fill="#ffffff">181</text>
+<text x="448" y="126" text-anchor="end" font-size="15" font-weight="600" font-family="Segoe UI,Helvetica,Arial,sans-serif" fill="#ffffff">378</text>
 <text x="32" y="156" font-size="15" font-family="Segoe UI,Helvetica,Arial,sans-serif"><tspan>🔀</tspan><tspan dx="10" fill="#8b949e">Total PRs</tspan></text>
-<text x="448" y="156" text-anchor="end" font-size="15" font-weight="600" font-family="Segoe UI,Helvetica,Arial,sans-serif" fill="#ffffff">2</text>
+<text x="448" y="156" text-anchor="end" font-size="15" font-weight="600" font-family="Segoe UI,Helvetica,Arial,sans-serif" fill="#ffffff">58</text>
 <text x="32" y="186" font-size="15" font-family="Segoe UI,Helvetica,Arial,sans-serif"><tspan>✅</tspan><tspan dx="10" fill="#8b949e">Merged PRs</tspan></text>
-<text x="448" y="186" text-anchor="end" font-size="15" font-weight="600" font-family="Segoe UI,Helvetica,Arial,sans-serif" fill="#ffffff">2</text>
+<text x="448" y="186" text-anchor="end" font-size="15" font-weight="600" font-family="Segoe UI,Helvetica,Arial,sans-serif" fill="#ffffff">49</text>
 <text x="32" y="216" font-size="15" font-family="Segoe UI,Helvetica,Arial,sans-serif"><tspan>🔼</tspan><tspan dx="10" fill="#8b949e">Open PRs</tspan></text>
-<text x="448" y="216" text-anchor="end" font-size="15" font-weight="600" font-family="Segoe UI,Helvetica,Arial,sans-serif" fill="#ffffff">0</text>
+<text x="448" y="216" text-anchor="end" font-size="15" font-weight="600" font-family="Segoe UI,Helvetica,Arial,sans-serif" fill="#ffffff">9</text>
 <text x="32" y="246" font-size="15" font-family="Segoe UI,Helvetica,Arial,sans-serif"><tspan>❗</tspan><tspan dx="10" fill="#8b949e">Total Issues</tspan></text>
 <text x="448" y="246" text-anchor="end" font-size="15" font-weight="600" font-family="Segoe UI,Helvetica,Arial,sans-serif" fill="#ffffff">0</text>
 <text x="32" y="276" font-size="15" font-family="Segoe UI,Helvetica,Arial,sans-serif"><tspan>🤝</tspan><tspan dx="10" fill="#8b949e">Contributed to</tspan></text>
-<text x="448" y="276" text-anchor="end" font-size="15" font-weight="600" font-family="Segoe UI,Helvetica,Arial,sans-serif" fill="#ffffff">0</text>
+<text x="448" y="276" text-anchor="end" font-size="15" font-weight="600" font-family="Segoe UI,Helvetica,Arial,sans-serif" fill="#ffffff">8</text>
 </svg>
