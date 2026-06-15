@@ -14,7 +14,7 @@ jobs:
     # HAS_PAT gates the stats card: most PRs are in private repos, so accurate
     # counts need a classic PAT (METRICS_TOKEN). The repo-scoped GITHUB_TOKEN
     # only sees public data and would undercount, so we never let it overwrite
-    # the committed card — we keep the accurate snapshot until a PAT is set.
+    # the committed, accurate github-stats.svg — we keep it until a PAT is set.
     env:
       HAS_PAT: ${{ secrets.METRICS_TOKEN != '' }}
     steps:
@@ -28,18 +28,34 @@ jobs:
           GH_TOKEN: ${{ secrets.METRICS_TOKEN }}
           GH_LOGIN: AYON-ARYAN
 
+      - name: Commit stats card
+        if: ${{ env.HAS_PAT == 'true' }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add github-stats.svg
+          if git diff --quiet --staged; then
+            echo "Stats card unchanged."
+          else
+            git commit -m "chore(metrics): refresh stats card [skip ci]"
+            git push
+          fi
+
       - name: Note when stats card is skipped
         if: ${{ env.HAS_PAT != 'true' }}
         run: echo "METRICS_TOKEN not set — keeping committed github-stats.svg (public-only counts would undercount private-repo PRs)."
 
+      # Contribution calendar + languages. base:"" disables the period-scoped
+      # base stats (e.g. the misleading "1 Pull request opened"). The metrics
+      # action commits github-metrics.svg itself (its proven default path).
       - name: Generate contribution calendar + languages
         uses: lowlighter/metrics@65836723097537a54cd8eb90f61839426b4266b6 # v3.34
         with:
           token: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
           user: AYON-ARYAN
           filename: github-metrics.svg
-          output_action: none # write to workspace; commit handled below
-          base: "" # skip base stats (period-scoped PR counts are misleading)
+          committer_message: "chore(metrics): refresh calendar + languages [skip ci]"
+          base: ""
           config_timezone: Asia/Kolkata
           config_padding: 4%
           plugin_isocalendar: yes
@@ -50,15 +66,3 @@ jobs:
           plugin_languages_colors: github
           plugin_languages_limit: 8
           plugin_languages_indepth: yes
-
-      - name: Commit generated SVGs
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add github-stats.svg github-metrics.svg
-          if git diff --quiet --staged; then
-            echo "No metric changes to commit."
-          else
-            git commit -m "chore(metrics): refresh GitHub stats SVGs [skip ci]"
-            git push
-          fi
