@@ -27,7 +27,7 @@ CS Undergrad @ RV University (AI/ML) · Bangalore, India
 
 <br/>
 
-`🎓 RV University · AI/ML · CGPA 7.8 · Class of 2027`  ·  `💼 2 industry internships shipped`  ·  `🧩 116 LeetCode (64 Med · 13 Hard)`  ·  `🏆 Best Project Award · IEEE CCEM 2024`
+`🎓 RV University · AI/ML · CGPA 7.8 · Class of 2027`  ·  `💼 2 industry internships shipped`  ·  `🧩 153 LeetCode (83 Med · 19 Hard)`  ·  `🏆 Best Project Award · IEEE CCEM 2024`
 
 </div>
 
