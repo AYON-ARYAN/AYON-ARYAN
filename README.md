@@ -27,7 +27,7 @@ CS Undergrad @ RV University (AI/ML) · Bangalore, India
 
 <br/>
 
-`🎓 RV University · AI/ML · CGPA 7.8 · Class of 2027`  ·  `💼 2 industry internships shipped`  ·  `🧩 318 LeetCode (165 Med · 35 Hard)`  ·  `🏆 Best Project Award · IEEE CCEM 2024`
+`🎓 RV University · AI/ML · CGPA 7.8 · Class of 2027`  ·  `💼 2 industry internships shipped`  ·  `🧩 319 LeetCode (166 Med · 35 Hard)`  ·  `🏆 Best Project Award · IEEE CCEM 2024`
 
 </div>
 
@@ -320,7 +320,7 @@ Major: AI and Machine Learning · Minor: FinTech · CGPA **7.8 / 10**
 **Achievements**
 - 🏆 **Best Project Award** — Structural Innovation, RV University
 - 📄 **IEEE CCEM 2024** — paper presenter (*GlucoSense*: non-invasive saliva glucose biosensor)
-- 🧩 **LeetCode** — 318 solved (118 Easy · 165 Medium · 35 Hard)
+- 🧩 **LeetCode** — 319 solved (118 Easy · 166 Medium · 35 Hard)
 
 **Certifications** — AWS (ML Terminology · CLI · DevOps Testing) · IBM SkillsBuild (Big Data, Hadoop, Spark, Kubernetes & OpenShift) · Google Generative AI · NPTEL Programming in Modern C++ · Udemy Spring Boot
 
