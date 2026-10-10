@@ -27,7 +27,7 @@ CS Undergrad @ RV University (AI/ML) · Bangalore, India
 
 <br/>
 
-`🎓 RV University · AI/ML · CGPA 7.8 · Class of 2027`  ·  `💼 2 industry internships shipped`  ·  `🧩 153 LeetCode (83 Med · 19 Hard)`  ·  `🏆 Best Project Award · IEEE CCEM 2024`
+`🎓 RV University · AI/ML · CGPA 7.8 · Class of 2027`  ·  `💼 2 industry internships shipped`  ·  `🧩 318 LeetCode (165 Med · 35 Hard)`  ·  `🏆 Best Project Award · IEEE CCEM 2024`
 
 </div>
 
@@ -43,6 +43,7 @@ CS Undergrad @ RV University (AI/ML) · Bangalore, India
 
 ## FOCUS
 
+- **AI agent evaluation.** Benchmarks for agent reliability — contract-drift detection, spec-laundering detection, deterministic scoring ([driftbench](https://github.com/AYON-ARYAN/driftbench)).
 - **Local-first LLM systems.** Dual-LLM topologies (cloud + on-device fallback), schema-constrained generation, prompt-injection defense, deterministic guardrails for write operations.
 - **Hybrid retrieval.** Knowledge graphs (NetworkX) fused with dense vector indexes (FAISS / pgvector) for grounded RAG.
 - **Model Context Protocol (MCP).** Building MCP servers that expose tools (DB, travel, web) to LLM clients.
@@ -57,10 +58,10 @@ CS Undergrad @ RV University (AI/ML) · Bangalore, India
 
 ## NOW
 
-- **DATABASE-MANAGER** — natural-language to SQL across 8 engines with a dual-LLM safety pipeline.
-- **routecraft** — multi-modal transit predictor for Bengaluru on Apple Metal.
-- **TRAVEL-PLANNER-MCP** — MCP server exposing planning tools to LLM clients.
-- **graph-rag** — hybrid Knowledge Graph + FAISS retrieval over user documents.
+- **[driftbench](https://github.com/AYON-ARYAN/driftbench)** — benchmark measuring whether AI coding agents silently break API contracts — and whether they launder the spec to hide it. Reproduces for $0.
+- **[settledrift](https://github.com/AYON-ARYAN/settledrift)** — payment-settlement reconciliation agent: deterministic core + bounded local LLM for the ambiguous remainder. 100% classification accuracy on a real end-to-end run.
+- **[skylark-bi-agent](https://github.com/AYON-ARYAN/skylark-bi-agent)** — conversational BI agent over live monday.com boards — deterministic cleaning + DuckDB + LLM.
+- **[DATABASE-MANAGER](https://github.com/AYON-ARYAN/DATABASE-MANAGER)** — natural-language to SQL across 8 engines with a dual-LLM safety pipeline.
 
 <br/>
 
@@ -100,6 +101,13 @@ CS Undergrad @ RV University (AI/ML) · Bangalore, India
 
 <div align="center">
 
+<a href="https://github.com/AYON-ARYAN/driftbench">
+<img src="https://socialify.git.ci/AYON-ARYAN/driftbench/image?description=1&font=Inter&language=1&name=1&owner=1&pattern=Solid&theme=Dark" width="49%" alt="driftbench — benchmark for AI coding agents silently breaking API contracts" />
+</a>
+<a href="https://github.com/AYON-ARYAN/settledrift">
+<img src="https://socialify.git.ci/AYON-ARYAN/settledrift/image?description=1&font=Inter&language=1&name=1&owner=1&pattern=Solid&theme=Dark" width="49%" alt="settledrift — LLM-assisted payment settlement reconciliation" />
+</a>
+
 <a href="https://github.com/AYON-ARYAN/DATABASE-MANAGER">
 <img src="https://socialify.git.ci/AYON-ARYAN/DATABASE-MANAGER/image?description=1&font=Inter&language=1&name=1&owner=1&pattern=Solid&theme=Dark" width="49%" />
 </a>
@@ -133,6 +141,36 @@ CS Undergrad @ RV University (AI/ML) · Bangalore, India
 <br/>
 
 ### PROJECT DETAILS
+
+<details>
+<summary><b>driftbench — Do AI coding agents silently break API contracts?</b></summary>
+<br/>
+
+Benchmark for **AI agent evaluation**: hands coding agents realistic API-change tasks against an OpenAPI contract, then measures whether they silently break the contract — or **launder the spec** (edit the contract/tests to hide the breakage). Deterministic contract-diff scoring, reproducible end-to-end for $0 using local models.
+
+`AI Agents` `LLM Evaluation` `OpenAPI` `API Contracts` `Benchmark` `Python`
+
+</details>
+
+<details>
+<summary><b>settledrift — Payment settlement reconciliation agent</b></summary>
+<br/>
+
+Reconciles a merchant ledger against a payment-gateway settlement report (Razorpay-style). **Deterministic matching where certainty is possible; a bounded local LLM agent (Ollama) only for the genuinely ambiguous remainder; human review for true exceptions.** FastAPI + SSE live web UI, 39 E2E tests. 100% classification accuracy on a real end-to-end run, $0 inference cost.
+
+`FinTech` `Reconciliation` `AI Agents` `Ollama` `FastAPI` `Python`
+
+</details>
+
+<details>
+<summary><b>skylark-bi-agent — Conversational BI over live monday.com boards</b></summary>
+<br/>
+
+Natural-language analytics agent over live monday.com project boards: deterministic data cleaning → DuckDB SQL → LLM synthesis, so numbers come from the database, not the model.
+
+`Business Intelligence` `DuckDB` `LLM` `monday.com API` `Python`
+
+</details>
 
 <details>
 <summary><b>DATABASE-MANAGER — Natural Language to SQL across 8 engines</b></summary>
@@ -238,6 +276,7 @@ Location-tagged image capture with server-side anti-spoof validation against fak
 
 | Project | What It Does |
 | --- | --- |
+| [devlog](https://github.com/AYON-ARYAN/devlog) | 34 engineering questions worked out in writing — git internals, databases, distributed systems, concurrency |
 | [TRAVEL-PLANNER-MCP](https://github.com/AYON-ARYAN/TRAVEL-PLANNER-MCP) | MCP server exposing trip-planning tools to LLM clients |
 | [INTELLI-CHAT-AI](https://github.com/AYON-ARYAN/INTELLI-CHAT-AI) | Smart Document and Web Assistant — RAG + LLM |
 | [Blockchain-Voting-System](https://github.com/AYON-ARYAN/Blockchain-Voting-System) | On-chain voting — Solidity smart contracts |
@@ -281,7 +320,7 @@ Major: AI and Machine Learning · Minor: FinTech · CGPA **7.8 / 10**
 **Achievements**
 - 🏆 **Best Project Award** — Structural Innovation, RV University
 - 📄 **IEEE CCEM 2024** — paper presenter (*GlucoSense*: non-invasive saliva glucose biosensor)
-- 🧩 **LeetCode** — 116 solved (39 Easy · 64 Medium · 13 Hard)
+- 🧩 **LeetCode** — 318 solved (118 Easy · 165 Medium · 35 Hard)
 
 **Certifications** — AWS (ML Terminology · CLI · DevOps Testing) · IBM SkillsBuild (Big Data, Hadoop, Spark, Kubernetes & OpenShift) · Google Generative AI · NPTEL Programming in Modern C++ · Udemy Spring Boot
 
