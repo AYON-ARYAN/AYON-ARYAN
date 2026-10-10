@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 132" width="400" height="132" role="img" aria-label="settledrift">
+<style>text { font-family: 'SF Mono','Cascadia Code','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace; }</style>
+<rect x="0.5" y="0.5" width="399" height="131" rx="10" fill="#0D1117" stroke="#30363D"/>
+<rect x="0.5" y="0.5" width="4" height="131" rx="2" fill="#3FB950"/>
+<text x="18" y="32" font-size="12" fill="#3FB950">✓</text>
+<text x="34" y="32" font-size="15" font-weight="700" fill="#E6EDF3">settledrift</text>
+<rect x="315.6" y="18" width="68" height="19" rx="9.5" fill="none" stroke="#D29922"/>
+<text x="350" y="31" font-size="9" font-weight="600" fill="#D29922" text-anchor="middle" letter-spacing="0.5">100% RUN</text>
+<text x="18" y="66" font-size="11.5" fill="#8B949E">Settlement reconciliation agent — deterministic</text><text x="18" y="83" font-size="11.5" fill="#8B949E">core + bounded local LLM. 100% on a real run.</text>
+<rect x="18" y="98" width="62" height="20" rx="10" fill="#161B22" stroke="#30363D"/><text x="49" y="112" font-size="9.5" fill="#8B949E" text-anchor="middle" letter-spacing="0.5">FINTECH</text><rect x="88.19999999999999" y="98" width="56" height="20" rx="10" fill="#161B22" stroke="#30363D"/><text x="116" y="112" font-size="9.5" fill="#8B949E" text-anchor="middle" letter-spacing="0.5">AGENTS</text><rect x="151.79999999999998" y="98" width="56" height="20" rx="10" fill="#161B22" stroke="#30363D"/><text x="180" y="112" font-size="9.5" fill="#8B949E" text-anchor="middle" letter-spacing="0.5">OLLAMA</text>
+</svg>

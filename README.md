@@ -1,18 +1,11 @@
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0D1117&height=1&section=header" width="100%"/>
-
 <div align="center">
 
-<img src="https://github.com/AYON-ARYAN.png" width="160" height="160" style="border-radius: 50%;" alt="Ayon Aryan" />
+<picture>
+<source media="(prefers-color-scheme: light)" srcset="./assets/hero-light.svg">
+<img src="./assets/hero-dark.svg" width="100%" alt="Ayon Aryan — AI/ML &amp; backend engineer · RV University 2027 · open to internships">
+</picture>
 
-<br/>
-
-# AYON ARYAN
-
-**AI Systems & Backend Engineer · Applied LLM, Hybrid RAG, On-Device ML**
-
-CS Undergrad @ RV University (AI/ML) · Bangalore, India
-
-<br/>
+<br/><br/>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ayon-aryan-917078238/)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:ayonaryan5@gmail.com)
@@ -23,11 +16,10 @@ CS Undergrad @ RV University (AI/ML) · Bangalore, India
 
 <br/>
 
-[![Open to internships](https://img.shields.io/badge/🎯%20Open%20to-AI%2FML%20·%20Backend%20·%20Android%20Internships-2ea44f?style=for-the-badge)](mailto:ayonaryan5@gmail.com)
 
 <br/>
 
-`🎓 RV University · AI/ML · CGPA 7.8 · Class of 2027`  ·  `💼 2 industry internships shipped`  ·  `🧩 319 LeetCode (166 Med · 35 Hard)`  ·  `🏆 Best Project Award · IEEE CCEM 2024`
+**B.Tech (Hons) CS · AI/ML major · FinTech minor · CGPA 7.8 · Bangalore**
 
 </div>
 
@@ -101,40 +93,14 @@ CS Undergrad @ RV University (AI/ML) · Bangalore, India
 
 <div align="center">
 
-<a href="https://github.com/AYON-ARYAN/driftbench">
-<img src="https://socialify.git.ci/AYON-ARYAN/driftbench/image?description=1&font=Inter&language=1&name=1&owner=1&pattern=Solid&theme=Dark" width="49%" alt="driftbench — benchmark for AI coding agents silently breaking API contracts" />
-</a>
-<a href="https://github.com/AYON-ARYAN/settledrift">
-<img src="https://socialify.git.ci/AYON-ARYAN/settledrift/image?description=1&font=Inter&language=1&name=1&owner=1&pattern=Solid&theme=Dark" width="49%" alt="settledrift — LLM-assisted payment settlement reconciliation" />
-</a>
+<a href="https://github.com/AYON-ARYAN/driftbench"><picture><source media="(prefers-color-scheme: light)" srcset="./assets/card-driftbench-light.svg"><img src="./assets/card-driftbench-dark.svg" width="49%" alt="driftbench"></picture></a>
+<a href="https://github.com/AYON-ARYAN/settledrift"><picture><source media="(prefers-color-scheme: light)" srcset="./assets/card-settledrift-light.svg"><img src="./assets/card-settledrift-dark.svg" width="49%" alt="settledrift"></picture></a>
 
-<a href="https://github.com/AYON-ARYAN/DATABASE-MANAGER">
-<img src="https://socialify.git.ci/AYON-ARYAN/DATABASE-MANAGER/image?description=1&font=Inter&language=1&name=1&owner=1&pattern=Solid&theme=Dark" width="49%" />
-</a>
-<a href="https://github.com/AYON-ARYAN/routecraft">
-<img src="https://socialify.git.ci/AYON-ARYAN/routecraft/image?description=1&font=Inter&language=1&name=1&owner=1&pattern=Solid&theme=Dark" width="49%" />
-</a>
+<a href="https://github.com/AYON-ARYAN/DATABASE-MANAGER"><picture><source media="(prefers-color-scheme: light)" srcset="./assets/card-DATABASE-MANAGER-light.svg"><img src="./assets/card-DATABASE-MANAGER-dark.svg" width="49%" alt="DATABASE-MANAGER"></picture></a>
+<a href="https://github.com/AYON-ARYAN/graph-rag"><picture><source media="(prefers-color-scheme: light)" srcset="./assets/card-graph-rag-light.svg"><img src="./assets/card-graph-rag-dark.svg" width="49%" alt="graph-rag"></picture></a>
 
-<a href="https://github.com/AYON-ARYAN/graph-rag">
-<img src="https://socialify.git.ci/AYON-ARYAN/graph-rag/image?description=1&font=Inter&language=1&name=1&owner=1&pattern=Solid&theme=Dark" width="49%" />
-</a>
-<a href="https://github.com/AYON-ARYAN/LLM-Service-MCP-">
-<img src="https://socialify.git.ci/AYON-ARYAN/LLM-Service-MCP-/image?description=1&font=Inter&language=1&name=1&owner=1&pattern=Solid&theme=Dark" width="49%" />
-</a>
-
-<a href="https://github.com/AYON-ARYAN/LEGAL-AI-LLM">
-<img src="https://socialify.git.ci/AYON-ARYAN/LEGAL-AI-LLM/image?description=1&font=Inter&language=1&name=1&owner=1&pattern=Solid&theme=Dark" width="49%" />
-</a>
-<a href="https://github.com/AYON-ARYAN/Brain-Tumor-Segmentation">
-<img src="https://socialify.git.ci/AYON-ARYAN/Brain-Tumor-Segmentation/image?description=1&font=Inter&language=1&name=1&owner=1&pattern=Solid&theme=Dark" width="49%" />
-</a>
-
-<a href="https://github.com/AYON-ARYAN/Image-Resolution-Enhancer">
-<img src="https://socialify.git.ci/AYON-ARYAN/Image-Resolution-Enhancer/image?description=1&font=Inter&language=1&name=1&owner=1&pattern=Solid&theme=Dark" width="49%" />
-</a>
-<a href="https://github.com/AYON-ARYAN/PERSONAL_ASSISTANT">
-<img src="https://socialify.git.ci/AYON-ARYAN/PERSONAL_ASSISTANT/image?description=1&font=Inter&language=1&name=1&owner=1&pattern=Solid&theme=Dark" width="49%" />
-</a>
+<a href="https://github.com/AYON-ARYAN/credit-risk-xai"><picture><source media="(prefers-color-scheme: light)" srcset="./assets/card-credit-risk-xai-light.svg"><img src="./assets/card-credit-risk-xai-dark.svg" width="49%" alt="credit-risk-xai"></picture></a>
+<a href="https://github.com/AYON-ARYAN/GEO_LOCATION_SAVER_APP"><picture><source media="(prefers-color-scheme: light)" srcset="./assets/card-GEO_LOCATION_SAVER_APP-light.svg"><img src="./assets/card-GEO_LOCATION_SAVER_APP-dark.svg" width="49%" alt="GEO_LOCATION_SAVER_APP"></picture></a>
 
 </div>
 
@@ -347,12 +313,6 @@ Major: AI and Machine Learning · Minor: FinTech · CGPA **7.8 / 10**
 
 <br/>
 
-## CONTRIBUTION GRAPH
-
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=AYON-ARYAN&theme=high-contrast&hide_border=true&bg_color=0D1117&color=FFFFFF&line=FFFFFF&point=6C63FF&area=true&area_color=161B22)](https://github.com/ashutosh00710/github-readme-activity-graph)
-
-<br/>
-
 ---
 
 <div align="center">
@@ -379,7 +339,5 @@ LLM systems · MCP servers · On-device ML · Spring Boot · Android
 📫 [ayonaryan5@gmail.com](mailto:ayonaryan5@gmail.com) · [LinkedIn](https://www.linkedin.com/in/ayon-aryan-917078238/)
 
 <br/>
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0D1117&height=1&section=footer" width="100%"/>
 
 </div>

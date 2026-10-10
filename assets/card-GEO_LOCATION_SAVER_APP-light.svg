@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 132" width="400" height="132" role="img" aria-label="geo-gps-camera">
+<style>text { font-family: 'SF Mono','Cascadia Code','JetBrains Mono',Menlo,Consolas,'Liberation Mono',monospace; }</style>
+<rect x="0.5" y="0.5" width="399" height="131" rx="10" fill="#FFFFFF" stroke="#D0D7DE"/>
+<rect x="0.5" y="0.5" width="4" height="131" rx="2" fill="#1A7F37"/>
+<text x="18" y="32" font-size="12" fill="#1A7F37">✓</text>
+<text x="34" y="32" font-size="15" font-weight="700" fill="#1F2328">geo-gps-camera</text>
+<rect x="281.6" y="18" width="102" height="19" rx="9.5" fill="none" stroke="#9A6700"/>
+<text x="333" y="31" font-size="9" font-weight="600" fill="#9A6700" text-anchor="middle" letter-spacing="0.5">100+ INSTALLS</text>
+<text x="18" y="66" font-size="11.5" fill="#656D76">GPS map camera for Android on the Play Store.</text><text x="18" y="83" font-size="11.5" fill="#656D76">Anti-spoof GPS validation, Compose + CameraX.</text>
+<rect x="18" y="98" width="62" height="20" rx="10" fill="#EAEEF2" stroke="#D0D7DE"/><text x="49" y="112" font-size="9.5" fill="#656D76" text-anchor="middle" letter-spacing="0.5">ANDROID</text><rect x="88.19999999999999" y="98" width="56" height="20" rx="10" fill="#EAEEF2" stroke="#D0D7DE"/><text x="116" y="112" font-size="9.5" fill="#656D76" text-anchor="middle" letter-spacing="0.5">KOTLIN</text><rect x="151.79999999999998" y="98" width="62" height="20" rx="10" fill="#EAEEF2" stroke="#D0D7DE"/><text x="183" y="112" font-size="9.5" fill="#656D76" text-anchor="middle" letter-spacing="0.5">COMPOSE</text>
+</svg>
