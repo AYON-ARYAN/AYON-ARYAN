@@ -171,16 +171,6 @@ Reconciles a merchant ledger against a payment-gateway settlement report (Razorp
 </details>
 
 <details>
-<summary><b>skylark-bi-agent — Conversational BI over live monday.com boards</b></summary>
-<br/>
-
-Natural-language analytics agent over live monday.com project boards: deterministic data cleaning → DuckDB SQL → LLM synthesis, so numbers come from the database, not the model.
-
-`Business Intelligence` `DuckDB` `LLM` `monday.com API` `Python`
-
-</details>
-
-<details>
 <summary><b>DATABASE-MANAGER — Natural Language to SQL across 8 engines</b></summary>
 <br/>
 
