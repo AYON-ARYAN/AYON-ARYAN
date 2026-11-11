@@ -48,9 +48,9 @@ def hero(t, name):
         ("", "", None),
         (dots("ships production systems, not notebooks", "PASS"), "ok", "✓"),
         (dots("ai/ml major · fintech minor · rv university '27", "PASS"), "ok", "✓"),
-        (dots("2 industry internships (ai @ broadrange · android @ techpuram)", "PASS"), "ok", "✓"),
-        (dots("319 leetcode solved · 166 medium · 35 hard", "PASS"), "ok", "✓"),
-        (dots("benchmarks agent reliability — driftbench", "PASS"), "ok", "✓"),
+        (dots("3 internships · kibi sports · broadrange ai · techpuram", "PASS"), "ok", "✓"),
+        (dots("426 leetcode solved · 228 medium · 45 hard", "PASS"), "ok", "✓"),
+        (dots("local-first llm systems · agent eval · computer vision", "PASS"), "ok", "✓"),
         ("", "", None),
         (dots("open to ai/ml · backend · android internships", "OPEN"), "open", "●"),
     ]
@@ -98,6 +98,14 @@ def hero(t, name):
 
 
 CARDS = [
+    dict(repo="VisionTrack", title="visiontrack", status="NEW",
+         desc=["YOLO11 + ByteTrack remember every object in a",
+               "room. Ask where you left your phone."],
+         tags=["VISION", "YOLO11", "TRACKING"]),
+    dict(repo="sanhita", title="sanhita", status="FULLY LOCAL",
+         desc=["Indian-law RAG — hybrid dense + BM25 over a",
+               "32k-entity graph. Qwen via Ollama, no cloud."],
+         tags=["LEGAL RAG", "OLLAMA", "HYBRID"]),
     dict(repo="driftbench", title="driftbench", status="BENCHMARK",
          desc=["Do AI coding agents silently break API",
                "contracts? Catches breakage & spec-laundering."],

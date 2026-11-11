@@ -37,7 +37,8 @@
 
 - **AI agent evaluation.** Benchmarks for agent reliability — contract-drift detection, spec-laundering detection, deterministic scoring ([driftbench](https://github.com/AYON-ARYAN/driftbench)).
 - **Local-first LLM systems.** Dual-LLM topologies (cloud + on-device fallback), schema-constrained generation, prompt-injection defense, deterministic guardrails for write operations.
-- **Hybrid retrieval.** Knowledge graphs (NetworkX) fused with dense vector indexes (FAISS / pgvector) for grounded RAG.
+- **Hybrid retrieval.** Knowledge graphs (NetworkX) fused with dense vectors (FAISS / Chroma / pgvector) and BM25 lexical search, reciprocal-rank-fused, for grounded RAG with the evidence shown.
+- **Computer vision.** Object detection and multi-object tracking (YOLO11 + ByteTrack) with persistent spatial memory; super-resolution via transfer-learned Real-ESRGAN.
 - **Model Context Protocol (MCP).** Building MCP servers that expose tools (DB, travel, web) to LLM clients.
 - **On-device ML on Apple Metal.** PyTorch + LightGBM training and inference targeting M-series GPUs via Metal Performance Shaders.
 - **Production backends.** Spring Boot · Flask · FastAPI. RBAC, Fernet credential encryption, snapshot-based undo.
@@ -50,14 +51,15 @@
 
 ## NOW
 
+- **[VisionTrack](https://github.com/AYON-ARYAN/VisionTrack)** — spatial memory for a room. YOLO11 + ByteTrack remember each physical object once, with a photo, a region and a movement history, so you can ask *"where did I leave my phone?"*
+- **[sanhita](https://github.com/AYON-ARYAN/sanhita)** — fully local legal RAG for Indian law. Hybrid dense + BM25 retrieval over a 121k-chunk corpus and a 32k-entity knowledge graph. Qwen via Ollama — no cloud API, nothing leaves the machine.
 - **[driftbench](https://github.com/AYON-ARYAN/driftbench)** — benchmark measuring whether AI coding agents silently break API contracts — and whether they launder the spec to hide it. Reproduces for $0.
 - **[settledrift](https://github.com/AYON-ARYAN/settledrift)** — payment-settlement reconciliation agent: deterministic core + bounded local LLM for the ambiguous remainder. 100% classification accuracy on a real end-to-end run.
-- **[skylark-bi-agent](https://github.com/AYON-ARYAN/skylark-bi-agent)** — conversational BI agent over live monday.com boards — deterministic cleaning + DuckDB + LLM.
 - **[DATABASE-MANAGER](https://github.com/AYON-ARYAN/DATABASE-MANAGER)** — natural-language to SQL across 8 engines with a dual-LLM safety pipeline.
 
 <br/>
 
-**Previously:** AI Intern @ Broadrange AI (Chicago) · Android Developer @ Techpuram (Madurai)
+**Previously:** Software Developer Intern @ KIBI Sports (Bangalore) · AI Intern @ Broadrange AI (Chicago) · Android Developer @ Techpuram (Madurai)
 **Education:** B.Tech (Hons) CSE @ RV University · AI/ML Major · FinTech Minor · Class of 2027
 
 <br/>
@@ -74,12 +76,13 @@
 |:------|:------|
 | **Languages** | `Python` `Java` `C++` `Kotlin` `C` `SQL` `Solidity` `JavaScript` |
 | **ML / DL** | `PyTorch` `TensorFlow` `Keras` `scikit-learn` `LightGBM` `LangChain` |
-| **Inference** | `Ollama` `Groq` `Hugging Face Transformers` `Mistral` `Llama` `BERT` |
-| **Retrieval** | `FAISS` `pgvector` `NetworkX` `Chroma` |
-| **Backend** | `Spring Boot` `Flask` `FastAPI` `REST` `Microservices` |
+| **Vision** | `YOLO11` `ByteTrack` `Ultralytics` `OpenCV` `Real-ESRGAN` `U-Net` |
+| **Inference** | `Ollama` `Groq` `Gemini` `Hugging Face Transformers` `Qwen` `Mistral` `Llama` `BERT` |
+| **Retrieval** | `FAISS` `Chroma` `pgvector` `BM25 / RRF` `NetworkX` `Apache Tika` |
+| **Backend** | `Spring Boot` `Flask` `FastAPI` `Socket.IO` `REST` `Microservices` |
 | **Mobile** | `Jetpack Compose` `CameraX` `Android SDK` |
 | **Data** | `PostgreSQL` `MySQL` `SQLite` `MSSQL` `Oracle` `MongoDB` `Cassandra` `Redis` |
-| **Infra** | `Docker` `Git` `Linux` `macOS / Apple Metal` |
+| **Infra** | `Docker` `Google Cloud Run` `Cloud SQL` `GitHub Actions` `Git` `Linux` `macOS / Apple Metal` |
 
 </div>
 
@@ -92,6 +95,9 @@
 ## SYSTEMS I'VE BUILT
 
 <div align="center">
+
+<a href="https://github.com/AYON-ARYAN/VisionTrack"><picture><source media="(prefers-color-scheme: light)" srcset="./assets/card-VisionTrack-light.svg"><img src="./assets/card-VisionTrack-dark.svg" width="49%" alt="VisionTrack"></picture></a>
+<a href="https://github.com/AYON-ARYAN/sanhita"><picture><source media="(prefers-color-scheme: light)" srcset="./assets/card-sanhita-light.svg"><img src="./assets/card-sanhita-dark.svg" width="49%" alt="sanhita"></picture></a>
 
 <a href="https://github.com/AYON-ARYAN/driftbench"><picture><source media="(prefers-color-scheme: light)" srcset="./assets/card-driftbench-light.svg"><img src="./assets/card-driftbench-dark.svg" width="49%" alt="driftbench"></picture></a>
 <a href="https://github.com/AYON-ARYAN/settledrift"><picture><source media="(prefers-color-scheme: light)" srcset="./assets/card-settledrift-light.svg"><img src="./assets/card-settledrift-dark.svg" width="49%" alt="settledrift"></picture></a>
@@ -107,6 +113,42 @@
 <br/>
 
 ### PROJECT DETAILS
+
+<details>
+<summary><b>VisionTrack — Spatial memory for your room</b></summary>
+<br/>
+
+Watches a video of a room and **remembers each physical object exactly once** — not once per frame. YOLO11 (Ultralytics) detects across 80 COCO classes, ByteTrack maintains identity across frames, and a re-identification pass collapses tracks back onto the same real object when it leaves and re-enters view.
+
+Every remembered object keeps a cropped photo, the region of the room it is in, and its movement history between regions. A Flask + Socket.IO UI streams all of it live while the video processes, and NVIDIA Nemotron answers free-form questions:
+
+> *"Where did I leave my phone?"* → *"I remember 2 cell phones. The most recent one (#4) was last seen in the keyboard area 3 days ago."*
+
+Auto-selects Apple MPS, NVIDIA CUDA or CPU. CI-tested.
+
+`YOLO11` `ByteTrack` `Object Tracking` `NVIDIA Nemotron` `FastAPI` `Flask` `Python`
+
+</details>
+
+<details>
+<summary><b>sanhita — Fully local legal RAG for Indian law</b></summary>
+<br/>
+
+*Sanhita* (संहिता) means a code or compilation of texts, as in the Bharatiya Nyaya Sanhita. Question-answering and document drafting over Indian statutes, judgments and contract clauses — **no cloud API, no API key, nothing leaves the machine.**
+
+| | |
+|---|---|
+| Generation | Qwen 2.5 3B-instruct via Ollama |
+| Embeddings | nomic-embed-text (768-dim) via Ollama |
+| Retrieval | **Hybrid** — Chroma dense vectors + BM25 lexical, fused by RRF |
+| Knowledge graph | NetworkX — **32k legal entities, 39k relations** |
+| Extraction | Apache Tika — PDF, DOCX, XLSX, PPTX, CSV, HTML |
+
+Indexes a **121,112-chunk** corpus (resumable; ~1 hour on an M2). Answers show their evidence, and drafts export to PDF/DOCX.
+
+`Legal Tech` `RAG` `Ollama` `Qwen` `ChromaDB` `BM25` `Knowledge Graph` `Apache Tika`
+
+</details>
 
 <details>
 <summary><b>driftbench — Do AI coding agents silently break API contracts?</b></summary>
@@ -264,6 +306,13 @@ Location-tagged image capture with server-side anti-spoof validation against fak
 
 ## EXPERIENCE
 
+**Software Developer Intern** — KIBI Sports · Bangalore
+`Feb 2026 — Sep 2026`
+Built and shipped the **AI Matchmaker**, an LLM-powered sponsorship engine matching brands to **100,000+ verified sports assets** across India, on Google Cloud Run + Cloud SQL (PostgreSQL).
+Designed the 5-stage pipeline: rule-fit gating → Gemini embeddings (2-tier LRU + Postgres cache) → listwise re-ranking with Gemini 3.1 Pro (temperature 0, JSON-validated, grounded reasons + risk flags) → a 3-voter Gemini Flash panel that strips invented metrics → MMR diversity with a fame cap.
+Added a self-improving feedback loop: cosine similarity (≥ 0.65) between new and past brief embeddings applies a bounded boost (max +0.08) to previously shortlisted assets — cold-start safe, no regression.
+Resolved production **schema-drift outages** across 9 mirrored tables and 20+ columns with fail-closed deploys and a `/readyz` schema probe — from **17,172 failures/24h to 200 OK in 32s**.
+
 **Artificial Intelligence Intern** — Broadrange AI · Chicago, Illinois
 `Jun 2025 — Aug 2025`
 Built a legal-domain LLM with RAG retrieval over curated case law. Document ingestion + chunking pipeline. PromptGuard V2 for prompt-injection defense. Reduced hallucination through tight retrieval grounding.
@@ -286,7 +335,7 @@ Major: AI and Machine Learning · Minor: FinTech · CGPA **7.8 / 10**
 **Achievements**
 - 🏆 **Best Project Award** — Structural Innovation, RV University
 - 📄 **IEEE CCEM 2024** — paper presenter (*GlucoSense*: non-invasive saliva glucose biosensor)
-- 🧩 **LeetCode** — 319 solved (118 Easy · 166 Medium · 35 Hard)
+- 🧩 **LeetCode** — 426 solved (153 Easy · 228 Medium · 45 Hard)
 
 **Certifications** — AWS (ML Terminology · CLI · DevOps Testing) · IBM SkillsBuild (Big Data, Hadoop, Spark, Kubernetes & OpenShift) · Google Generative AI · NPTEL Programming in Modern C++ · Udemy Spring Boot
 
